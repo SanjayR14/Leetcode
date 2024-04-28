@@ -1,4 +1,3 @@
-# Define the Solution class and the twoSum method
 class Solution():
     def twoSum(self,nums, target):
         empty_dict = {}
@@ -10,17 +9,8 @@ class Solution():
             empty_dict[nums[index]] = index
             print(index)
         return []
-
-# Create an instance of the Solution class
 sol = Solution()
-
-# Define the input list and target sum
 nums = [2, 7, 11, 15]
 target = 18
-
-
-# Call the twoSum method with the input
 result = sol.twoSum(nums, target)
-
-# Print the result
 print("Indices of the two numbers:", result)
