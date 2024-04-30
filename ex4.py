@@ -12,8 +12,6 @@ class Solution(object):
                 j += 1
         merged.extend(nums1[i:])
         merged.extend(nums2[j:])
-        
-        # Find median
         total_length = len(merged)
         if total_length % 2 == 1:
             return merged[total_length // 2]
